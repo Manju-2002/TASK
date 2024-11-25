@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <div class="bg-container">
+        <div class="todo-card-header">
+            <h1 class="todo-card-title">Todolist</h1>
+            <p class="todo-card-caption">Each day I will accomplish one thing on my todolist.</p>
+            <p class="todo-tittle">Read a Book</p>
+            <p class="todo-description">I don't think that the human race will survive thenext thousand years, unless we spread into space.
+                There are too many accidents that can befall life on a singleplanet. But I'm an optimist...
+            </p>
+            <div class="todo-card-forter">
+                <button class="button">Start</button>
+                <p class="text-underline">Don't skip Introduction</p>
+            </div>
+        </div>
+</body>
+
+</html>
+
+
+CSS:-
+
+.button {
+    height: 30px;
+    width: 75px;
+    background-color: #cc6600;
+    color: white;
+    border-radius: 0px;
+}
+
+.todo-card-header {
+    text-align: center;
+    color: white;
+}
+
+.text-underline {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.bg-container {
+    background-image: url(" https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/todolistbg.png");
+    height: 100vh;
+    background-size: cover;
+}
